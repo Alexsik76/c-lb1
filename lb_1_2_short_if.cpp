@@ -19,17 +19,17 @@ int main()
     }
     if (type == 1)
     {
-        y = 100 * abs(cos(pow(x, 2) - 3.8) / (4.5 - 9.7 * sin(x - 3.1)) + 50);
+        y = 100 * abs(cos(pow(x, 2) - 3.8) / (4.5 - 9.7 * sin(x - 3.1))) + 50;
         tax = (y / 100) * 10;
     }
     if (type == 2)
     {
-        y = 150 * abs(13.4 * sin(-1.26 * x) * cos(abs(x / 7.5)));
+        y = 150 * abs(13.4 * sin(-1.26 * x) * cos(abs(x / 7.5))) + 100;
         tax = (y / 100) * 15;
     }
     if (type == 3)
     {
-        y = 100 * abs(2 * sin(abs(x)) * cos(2) * x - 11.6 * sin(x / 0.4 - 1));
+        y = 100 * abs(2 * sin(abs(x)) * cos(2) * x - 11.6 * sin(x / 0.4 - 1)) + 135;
         tax = (y / 100) * 20;
     }
 
