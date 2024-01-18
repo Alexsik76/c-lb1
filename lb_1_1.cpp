@@ -31,7 +31,6 @@ int main()
         y = log(x + 9 * sqrt(abs(x + a)));
     }
 
-    cout << "y = " << y << "\n";
     printf("With x = %f, a = %f \n     y = %f\n", x, a, y);
     system("pause");
     return 0;
