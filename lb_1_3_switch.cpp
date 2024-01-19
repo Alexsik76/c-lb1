@@ -11,29 +11,24 @@ int main()
     switch (group_code)
     {
     case 31:
-    {
         current_number = 20;
         break;
-    }
     case 32:
-    {
         current_number = 23;
         break;
-    }
     case 33:
-    {
         current_number = 24;
         break;
-    }
     case 34:
-    {
         current_number = 28;
         break;
-    }
     case 35:
-    {
         current_number = 18;
         break;
+    default:{
+        printf("There is no group with code %i.\n", group_code);
+        system("pause");
+        return 0;
     }
     }
 
