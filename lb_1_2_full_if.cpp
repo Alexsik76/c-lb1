@@ -11,9 +11,6 @@ int main()
     cin >> x;
     cout << "Enter the type of work (possible options 1,2,3): ";
     cin >> type;
-    if ((type < 1) || (type > 3))
-    {
-    }
     if (type == 1)
     {
         y = 100 * abs(cos(pow(x, 2) - 3.8) / (4.5 - 9.7 * sin(x - 3.1))) + 50;
