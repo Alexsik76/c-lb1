@@ -3,10 +3,11 @@
 #include <math.h>
 
 using namespace std;
-double x, y, tax, amount;
-int type;
+
 int main()
 {
+    double x, y, tax, amount;
+    int type;
     cout << "Enter the value of the argument x: ";
     cin >> x;
     cout << "Enter the type of work (possible options 1,2,3): ";

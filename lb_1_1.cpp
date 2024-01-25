@@ -4,9 +4,10 @@
 #include <math.h>
 
 using namespace std;
-double x, y, a = 1.65;
+
 int main()
 {
+    double x, y, a = 1.65;
     cout << "Enter the value of the argument x: ";
     cin >> x;
     if (x < 1.4)

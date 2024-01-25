@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 using namespace std;
-int group_code, current_number;
+
 int main()
 {
+    int group_code, current_number;
     cout << "Enter the goup code (I know groups from 31 to 35): ";
     cin >> group_code;
 
